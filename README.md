@@ -1,4 +1,4 @@
-# BioSync — Smart Government Services Recommendation Engine
+# Smart Government Services Recommendation Engine
 
 AI-powered backend engine that prioritizes government services using multi-factor scoring (urgency, seasonality, importance, behavior) – built with FastAPI and Python
 
@@ -8,17 +8,17 @@ AI-powered backend engine that prioritizes government services using multi-facto
 
 ## Overview
 
-BioSync is a backend recommendation engine that analyzes government services and identifies which actions users should prioritize first.
+It is a backend recommendation engine that analyzes government services and identifies which actions users should prioritize first.
 
 This system was built to solve a real problem:
 
 > Citizens forget service renewals, face fines, and struggle to track dozens of government services.
 
-BioSync fixes that by turning information into **actionable intelligence**.
+It fixes that by turning information into **actionable intelligence**.
 
 ---
 
-## What BioSync Does
+## What It Does
 
 ✅ Calculates a priority score for each service  
 ✅ Explains why the service is important  
