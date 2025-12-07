@@ -1,5 +1,5 @@
 """
-BioSync Recommendation Engine
+Smart Government Recommendation Engine
 ==============================
 Smart recommendation engine - analyzes all user services and ranks by priority
 
@@ -53,7 +53,7 @@ class SmartRecommender:
                 score_result = self.scorer.calculate_priority(service, user)
                 scored_services.append(score_result)
             except Exception as e:
-                print(f"⚠️ Error scoring service {service.get('service_id')}: {e}")
+                print(f" Error scoring service {service.get('service_id')}: {e}")
                 continue
         
         # Sort by score (descending)

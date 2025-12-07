@@ -59,7 +59,7 @@ result = recommender.get_recommendations(test_user, test_services, top_n=5)
 
 # Display results
 print("=" * 70)
-print(" BioSync Recommendation Engine Test")
+print(" Smart Government Recommendation Engine Test")
 print("=" * 70)
 
 print(f"\n User: {result['user_name']}")
@@ -83,9 +83,9 @@ for i, rec in enumerate(result['recommendations'], 1):
     print(f"       Priority: {rec['priority_level'].upper()}")
     print(f"       Days Left: {rec['days_left']}")
 
-print(f"\n📱 SMS ALERTS ({len(result['sms_alerts'])} alerts ready to send):")
+print(f"\n SMS ALERTS ({len(result['sms_alerts'])} alerts ready to send):")
 for alert in result['sms_alerts']:
-    print(f"\n   📲 {alert['service_name']} ({alert['priority'].upper()}):")
+    print(f"\n    {alert['service_name']} ({alert['priority'].upper()}):")
     print(f"      To: {alert['phone']}")
     print(f"      Message: {alert['message'][:80]}...")
     print(f"      Link: {alert['action_link']}")

@@ -11,7 +11,7 @@ from app.models.schemas import (
 )
 from app.core.recommender import SmartRecommender
 
-router = APIRouter(prefix="/api", tags=["BioSync"])
+router = APIRouter(prefix="/api", tags=["Smart Government"])
 
 recommender = SmartRecommender()
 
@@ -55,7 +55,7 @@ async def health_check():
     """
     return {
         "status": "healthy",
-        "service": "BioSync API",
+        "service": "Smart Government API",
         "version": "1.0.0",
         "developer": "Ghadeer"
     }
@@ -67,10 +67,9 @@ async def api_info():
     API Information
     """
     return {
-        "message": "BioSync API - Smart Government Services Recommendations",
-        "description": "AI-powered recommendation engine for Absher services",
+        "message": "Smart Government API - Smart Government Services Recommendations",
+        "description": "AI-powered recommendation engine for prioritizing government services",
         "developer": "Ghadeer - AI/ML Engineer",
-        "hackathon": "Absher Hackathon 2024",
         "endpoints": {
             "recommendations": {
                 "method": "POST",
@@ -89,7 +88,7 @@ async def api_info():
             }
         },
         "features": [
-            "4-factor scoring algorithm",
+            "4-factor scoring git --versionalgorithm",
             "Weighted priority calculation",
             "SMS alert generation",
             "Seasonal demand analysis",

@@ -1,5 +1,5 @@
 """
-BioSync Scoring Engine
+Smart Government Scoring Engine
 ======================
 Smart scoring model that analyzes government service priorities based on:
 1. Urgency (time until service expiration)
@@ -8,7 +8,6 @@ Smart scoring model that analyzes government service priorities based on:
 4. User Activity (how active is the user?)
 
 Developer: Ghadeer (AI/ML Engineer)
-Date: December 2024
 """
 
 from datetime import datetime

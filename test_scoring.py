@@ -31,7 +31,7 @@ result = scorer.calculate_priority(test_service, test_user)
 
 # Display results
 print("=" * 70)
-print(" BioSync Scoring Engine Test")
+print(" Smart Government Scoring Engine Test")
 print("=" * 70)
 
 print(f"\n Service: {result['service_name']}")
